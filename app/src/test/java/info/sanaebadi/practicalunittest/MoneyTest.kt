@@ -8,6 +8,9 @@ internal class MoneyTest {
     internal fun constructorShouldSetAmountAnCurrency() {
         val money = Money(10, "USD")
         assertEquals(10, money.amount)
+
+        println("AMOUNT ${money.amount}")
+
         assertEquals("USD", money.currency)
     }
 }
