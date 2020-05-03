@@ -12,5 +12,7 @@ internal class MoneyTest {
         println("AMOUNT ${money.amount}")
 
         assertEquals("USD", money.currency)
+        println("CURRENCY ${money.currency}")
+
     }
 }
