@@ -10,14 +10,22 @@ internal class MoneyTest {
     @Test
     internal fun constructorShouldSetAmountAnCurrency() {
         money = Money(10, "USD")
-        assertEquals(10, money.amount)
 
+        assertEquals(10, money.amount)
         println("AMOUNT ${money.amount}")
+
 
         assertEquals("USD", money.currency)
         println("CURRENCY ${money.currency}")
 
         money = Money(20, "EUR")
+
+        assertEquals(20, money.amount)
+        println("CURRENCY ${money.amount}")
+
+        assertEquals("EUR", money.currency)
+        println("CURRENCY ${money.currency}")
+
 
     }
 }
