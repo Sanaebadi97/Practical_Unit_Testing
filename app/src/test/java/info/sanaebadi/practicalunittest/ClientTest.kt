@@ -10,6 +10,6 @@ class ClientTest {
     @Test
     fun afterCreationShouldHaveNoAddress() {
         val client = Client()
-        assertEquals(0, client.addresses.size)
+        assertEquals(null, client.addresses?.size)
     }
 }
