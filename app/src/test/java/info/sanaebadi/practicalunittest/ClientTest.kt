@@ -1,6 +1,7 @@
 package info.sanaebadi.practicalunittest
 
 import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
 class ClientTest {
     val addressA = Address("Street A")
@@ -8,6 +9,7 @@ class ClientTest {
 
     @Test
     fun afterCreationShouldHaveNoAddress() {
-
+        val client = Client()
+        assertEquals(0, client.addresses.size)
     }
 }

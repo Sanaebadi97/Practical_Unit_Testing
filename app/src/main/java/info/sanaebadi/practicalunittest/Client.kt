@@ -1,5 +1,9 @@
 package info.sanaebadi.practicalunittest
 
-class Client() {
+data class Client(val addresses: List<String>) {
+
+    fun addAddress(addressName: String) {
+
+    }
 
 }

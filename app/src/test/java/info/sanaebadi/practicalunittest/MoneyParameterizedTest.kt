@@ -39,7 +39,7 @@ internal class MoneyParameterizedTest {
 
     }
 
-    @Test(expect(Exception::class))
+    //@Test(expect(Exception::class))
     fun shouldThrowExceptions() {
        //some implimention here which is expected
         // to throw an expected of Expetion class
