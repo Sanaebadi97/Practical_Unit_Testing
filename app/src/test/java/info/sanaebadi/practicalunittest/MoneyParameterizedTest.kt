@@ -1,29 +1,37 @@
 package info.sanaebadi.practicalunittest
 
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import org.junit.runners.Parameterized
+
 
 internal class MoneyParameterizedTest {
 
     lateinit var money: Money
 
-    @Test
-    internal fun constructorShouldSetAmountAnCurrency() {
-        money = Money(10, "USD")
+    private val getMoney: Array<Any>
+        get() = arrayOf(
+            arrayOf<Any>(
+                10, "USD"
+            ), arrayOf<Any>(
+                20, "EUR"
+            )
+        )
 
-        assertEquals(10, money.amount)
+
+    @Test
+    @Parameterized.Parameters(name = "getMoney")
+    internal fun constructorShouldSetAmountAnCurrency(
+        amount: Int, currency: String
+    ) {
+
+        money = Money(amount, currency)
+
+        assertEquals(amount, money.amount)
         println("AMOUNT ${money.amount}")
 
 
-        assertEquals("USD", money.currency)
-        println("CURRENCY ${money.currency}")
-
-        money = Money(20, "EUR")
-
-        assertEquals(20, money.amount)
-        println("CURRENCY ${money.amount}")
-
-        assertEquals("EUR", money.currency)
+        assertEquals(currency, money.currency)
         println("CURRENCY ${money.currency}")
 
 
