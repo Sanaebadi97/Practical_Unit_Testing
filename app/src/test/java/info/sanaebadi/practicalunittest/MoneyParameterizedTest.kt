@@ -3,7 +3,7 @@ package info.sanaebadi.practicalunittest
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class MoneyTest {
+internal class MoneyParameterizedTest {
 
     lateinit var money: Money
 
