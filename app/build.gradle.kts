@@ -29,8 +29,9 @@ android {
     }
 
     testOptions {
+        unitTests.all(useJUnitPlatform())
+
         junitPlatform {
-            // configurationParameter  ("junit.jupiter.testinstance.lifecycle.default", "per_class")
         }
     }
 

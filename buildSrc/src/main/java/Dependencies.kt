@@ -49,7 +49,7 @@ object TestLibraries {
         const val espresso = "3.1.0-alpha4"
         const val androidX = "1.1.0"
         const val testRule = "1.2.0"
-        const val junitJupiter = "5.6.0"
+        const val junitJupiter = "5.6.2"
         const val mockito = "2.19.0"
     }
 
