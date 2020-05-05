@@ -20,6 +20,14 @@ class ClientTest {
         client.addAddress(addressA)
 
         assertEquals(1, client.addresses?.size)
-        assertTrue(client.addresses!!.contains<Any>(addressA))
+     //   assertTrue(client.addresses!!.contains<Any>(addressA))
+    }
+
+
+    @Test
+    fun shouldAllowToAddManyAddresses(){
+        val client = Client()
+//        client.addresses(addressA)
+//        client.addresses(addressB)
     }
 }
