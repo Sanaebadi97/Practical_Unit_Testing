@@ -1,8 +1,11 @@
 package info.sanaebadi.practicalunittest
 
 import org.junit.Assert.assertEquals
+import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.runners.Parameterized
+import java.lang.Exception
+import kotlin.test.expect
 
 internal class MoneyParameterizedTest {
 
@@ -34,5 +37,11 @@ internal class MoneyParameterizedTest {
         println("CURRENCY ${money.currency}")
 
 
+    }
+
+    @Test(expect(Exception::class))
+    fun shouldThrowExceptions() {
+       //some implimention here which is expected
+        // to throw an expected of Expetion class
     }
 }
