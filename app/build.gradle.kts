@@ -1,4 +1,5 @@
 import de.mannodermaus.gradle.plugins.junit5.junitPlatform
+import jdk.nashorn.internal.objects.NativeRegExp.test
 
 plugins {
     id(BuildPlugins.androidApplication)
@@ -38,6 +39,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
+
 }
 
 
@@ -57,7 +59,7 @@ dependencies {
 
     //JUnit4
     testImplementation(TestLibraries.junit4)
-
+    testRuntimeOnly(TestLibraries.junit4Engine)
 
     // AndroidX test
     androidTestImplementation(TestLibraries.testCore)
@@ -69,7 +71,7 @@ dependencies {
     testImplementation(TestLibraries.junitJupiterApi)
     testImplementation(TestLibraries.junitJupiterParams)
     testRuntimeOnly(TestLibraries.junitJupiterEngine)
-    androidTestImplementation(TestLibraries.kotlinTestJunit)
+    testImplementation(TestLibraries.kotlinTestJunit)
 
 
     //  MOCKITO

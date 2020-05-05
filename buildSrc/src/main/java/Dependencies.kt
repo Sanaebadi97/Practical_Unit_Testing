@@ -5,6 +5,7 @@ object BuildPlugins {
     object Versions {
         const val buildToolsVersion = "3.6.2"
         const val junit5Plugin = "1.4.2.0"
+        const val junit5Platform = "1.0.0-M1"
     }
 
     const val androidGradlePlugin = "com.android.tools.build:gradle:${Versions.buildToolsVersion}"
@@ -15,6 +16,8 @@ object BuildPlugins {
     const val kotlinAndroid = "kotlin-android"
     const val kotlinAndroidExtensions = "kotlin-android-extensions"
     const val androidJunit5 = "de.mannodermaus.android-junit5"
+    const val junitPlatformPlugin = "org.junit.platform:junit-platform-gradle-plugin:${Versions.junit5Platform}"
+    const val junit5PlatformPlugin = "org.junit.platform.gradle.plugin"
 
 
 }
@@ -46,11 +49,12 @@ object TestLibraries {
         const val espresso = "3.1.0-alpha4"
         const val androidX = "1.1.0"
         const val testRule = "1.2.0"
-        const val junitJupiter = "5.3.2"
+        const val junitJupiter = "5.6.0"
         const val mockito = "2.19.0"
     }
 
     const val junit4 = "junit:junit:${Versions.junit4}"
+    const val junit4Engine = "org.junit.vintage:junit-vintage-engine:${Versions.junitJupiter}"
     const val testRunner = "androidx.test:runner:${Versions.androidX}"
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
     const val testCore = "androidx.test.espresso:espresso-core:${Versions.androidX}"
