@@ -1,10 +1,12 @@
 package info.sanaebadi.practicalunittest
 
-import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.Test
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
 
-
+@RunWith(JUnitParamsRunner::class)
 internal class MoneyParameterizedTest {
 
     lateinit var money: Money
@@ -20,7 +22,8 @@ internal class MoneyParameterizedTest {
 
 
     @Test
-    @Parameterized.Parameters(name = "getMoney")
+    @ParameterizedTest
+    @Parameterized.Parameters(method = "getMoney")
     internal fun constructorShouldSetAmountAnCurrency(
         amount: Int, currency: String
     ) {

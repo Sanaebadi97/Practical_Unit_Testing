@@ -59,4 +59,6 @@ object TestLibraries {
     const val junitJupiterParams = "org.junit.jupiter:junit-jupiter-params:${Versions.junitJupiter}"
     const val junitJupiterEngine = "org.junit.jupiter:junit-jupiter-engine:${Versions.junitJupiter}"
     const val mockito = "org.mockito:mockito-core:${Versions.mockito}"
+    const val kotlinTestJunit = "org.jetbrains.kotlin:kotlin-test-junit:${kotlinVersion}"
+
 }

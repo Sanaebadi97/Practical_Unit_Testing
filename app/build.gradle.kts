@@ -21,8 +21,8 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
             )
         }
     }
@@ -34,8 +34,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility =JavaVersion.VERSION_1_8
-        targetCompatibility= JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
 }
@@ -69,6 +69,7 @@ dependencies {
     testImplementation(TestLibraries.junitJupiterApi)
     testImplementation(TestLibraries.junitJupiterParams)
     testRuntimeOnly(TestLibraries.junitJupiterEngine)
+    androidTestImplementation(TestLibraries.kotlinTestJunit)
 
 
     //  MOCKITO
