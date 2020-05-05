@@ -1,5 +1,3 @@
 package info.sanaebadi.practicalunittest
 
-class Address {
-
-}
+data class Address(val streetName: String)
