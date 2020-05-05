@@ -13,6 +13,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../FarazpardazanPro/poshtibanyar-android/presentation/src/main/res/drawable/defaultbutton_bacjground_cancel.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../FarazpardazanPro/poshtibanyar-android/presentation/src/main/res/layout/fragment_change_address.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../FarazpardazanPro/poshtibanyar-android/presentation/src/main/res/layout/receiver_address_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../FarazpardazanPro/poshtibanyar-android/presentation/src/main/res/layout/terminal_data_confirm_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../FarazpardazanPro/poshtibanyar-android/presentation/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../FarazpardazanPro/poshtibanyar-android/presentation/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../JUnit52/app/build.gradle">
           <value>
             <set />

@@ -66,5 +66,3 @@ C
 settings.gradle.kts,7/4/749edfcc96398253e5b3416184e95c46621da850
 k
 ;app/src/main/java/info/sanaebadi/practicalunittest/Money.kt,8/e/8e27eb9e95bc9b4b7b6485c54263f521b73f748a
-o
-?app/src/test/java/info/sanaebadi/practicalunittest/MoneyTest.kt,7/a/7a4f5bc2c5127910db388ef8937f4ddc5d6c642c

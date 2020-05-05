@@ -17,6 +17,10 @@ android {
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunnerArgument(
+            "runnerBuilder",
+            "de.mannodermaus.junit5.AndroidJUnit5Builder"
+        )
     }
     buildTypes {
         getByName("release") {
@@ -29,7 +33,6 @@ android {
     }
 
     testOptions {
-        unitTests.all(useJUnitPlatform())
 
         junitPlatform {
         }
