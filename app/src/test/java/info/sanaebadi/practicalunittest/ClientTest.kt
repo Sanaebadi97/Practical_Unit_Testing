@@ -1,5 +1,6 @@
 package info.sanaebadi.practicalunittest
 
+import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -7,6 +8,9 @@ import kotlin.test.assertTrue
 class ClientTest {
     val addressA = Address("StreetA")
     val addressB = Address("StreetB")
+
+
+
 
     @Test
     fun afterCreationShouldHaveNoAddress() {
@@ -20,12 +24,12 @@ class ClientTest {
         client.addAddress(addressA)
 
         assertEquals(1, client.addresses?.size)
-     //   assertTrue(client.addresses!!.contains<Any>(addressA))
+        //   assertTrue(client.addresses!!.contains<Any>(addressA))
     }
 
 
     @Test
-    fun shouldAllowToAddManyAddresses(){
+    fun shouldAllowToAddManyAddresses() {
         val client = Client()
 //        client.addresses(addressA)
 //        client.addresses(addressB)

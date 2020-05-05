@@ -68,3 +68,7 @@ k
 ;app/src/main/java/info/sanaebadi/practicalunittest/Money.kt,8/e/8e27eb9e95bc9b4b7b6485c54263f521b73f748a
 |
 Lapp/src/test/java/info/sanaebadi/practicalunittest/MoneyParameterizedTest.kt,a/5/a567f52899d50c464d704793d9beb1e227419cf8
+l
+<app/src/main/java/info/sanaebadi/practicalunittest/Client.kt,5/4/541866d92800d84d8d638f10640bff09c98a54c2
+p
+@app/src/test/java/info/sanaebadi/practicalunittest/ClientTest.kt,5/e/5e61de3fa9d2f3a2eec824d7ca142a3370821fd0
