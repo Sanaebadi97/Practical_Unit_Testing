@@ -1,8 +1,11 @@
 package info.sanaebadi.practicalunittest
 
-data class Client(val addresses: List<String> ? =null) {
+data class Client(val addresses: List<String>? = null) {
 
-    fun addAddress(addressName: String) {
+    constructor() : this(arrayListOf("StreetA"))
+
+
+    fun addAddress(addressName: Address) {
 
     }
 
