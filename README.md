@@ -1,4 +1,4 @@
 # Practical_Unit_Testing
-Junit
+Jun
 
 Practical Unit Test Book from Tomek Kaczanowski
