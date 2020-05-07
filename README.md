@@ -1,4 +1,4 @@
 # Practical_Unit_Testing
-Junit + Moci
+Junit + Moc
 
 Practical Unit Test Book from Tomek Kaczanowski
