@@ -1,7 +1,6 @@
 
 http://practicalunittesting.com
-Practical Unit Testing with JUnit and Mo
-
+Practical Unit Testing with JUnit and 
 
 
 Nowadays developers are ecteto write unit tests. While simple in theory, in practice writing high-quality unit tests can turn out to be a real challenge. Thi
