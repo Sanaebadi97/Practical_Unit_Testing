@@ -31,4 +31,4 @@
 
 
 
-Practical Unit Test Book from Tomek 
+Practical Unit Test Book from Tome
