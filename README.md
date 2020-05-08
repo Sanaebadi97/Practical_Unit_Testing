@@ -1,7 +1,7 @@
 
 http://practicalunittesting.
 Practical Unit Testing with JUnit 
-Nowadays developers are ectetout tests. leouality unit tests caurn out to be a real chall
+Nowadays developers are ectetout tests. leoualityit tests caurn out to be a real chall
 This book explns in detail  tt teJavaU  TeMockito 
 
 Techn
