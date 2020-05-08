@@ -2,7 +2,7 @@
 http://practicalunittesting.com
 Practical Unit Testing with JUnit 
 Nowadays developers are ectetout tests. leouality unit tests can turn out to be a real chall
-This book explns in detail  tt tesu Java iJU 5, TestNG, Mockito and
+This book explns in detail  tt teJava iJU 5, TestNG, Mockito and
 
 
 
