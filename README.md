@@ -31,4 +31,4 @@
 
 
 
-Practical Unit Test Book from Tomek Kaczanowsk
+Practical Unit Test Book from Tomek Kaczanow
