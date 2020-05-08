@@ -2,7 +2,7 @@
 http://practicalunittesting.
 Practical Unit Testing with JUnit 
 Nowadays developers are ectetout tests. leoualityit tests caurn out to be a real chall
-This book explns in detail  tt teJavaU  TeMk
+This book explns in detail  tt teJavaU  Te
 
 Te
 It presents a ranf techniques necry to write higuality unit tests – e.g. m parametrized tests and matchers. It also discusses trade-offs related to the chois we have to ke when dealing with some real-life code issue
