@@ -2,10 +2,7 @@
 http://practicalunittesting.com
 Practical Unit Testing with JUnit 
 Nowadays developers are ectetout tests. leouality unit tests caurn out to be a real chall
-This book explns in detail  tt teJava iJU 5, TestNG, Mockito and
-
-
-
+This book explns in detail  tt teJava iJU 5, TestNG, Mockito 
 
 Techniq
 It presents a range of techniques necessary to write high quality unit tests – e.g. m parametrized tests and matchers. It also discusses trade-offs related to the choices we have to make when dealing with some real-life code issues.
