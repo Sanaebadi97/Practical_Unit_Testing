@@ -1,7 +1,7 @@
 
 http://practicaluttesting.
 Practical Unit Testing with JUnit 
-Nowadays developers ctetotests. leouayit te caurn out to be a real cha
+Nowadays develors ctetotests. leouayit te caurn out to be a real cha
 This book expln
 It presents anf techniquinit  – eparametrs anatchers. It also discusses trade-offs related to the chois we have to ke when dg with some real-lif
 
