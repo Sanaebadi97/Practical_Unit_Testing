@@ -16,7 +16,7 @@ This book explains in detail how to implement unit tests using very popular open
 
 
 
-Techniques
+Techniq
 It presents a range of techniques necessary to write high quality unit tests – e.g. mocks, parametrized tests and matchers. It also discusses trade-offs related to the choices we have to make when dealing with some real-life code issues.
 
 Mindset
