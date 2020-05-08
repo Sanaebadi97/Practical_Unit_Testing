@@ -4,9 +4,7 @@ Practical Unit Testing with JUnit and Mo
 
 
 
-Nowadays developers are ecteto write unit tests. While simple in theory, in practice writing high-quality unit tests can turn out to be a real challenge. This 
-
-
+Nowadays developers are ecteto write unit tests. While simple in theory, in practice writing high-quality unit tests can turn out to be a real challenge. Thi
 This book explains in detail  tmpleit testvery popular open sou Java technologies: JUnit 5, TestNG, Mockito and A
 
 
