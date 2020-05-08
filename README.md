@@ -2,7 +2,7 @@
 http://practicaluttesting.
 Practical nit Testing with JU
 Nowadays develors cttests.eouayit  r out o be a
-It presents anf techniinirra red thchoa  k imite common mista by followin thTesiven Development (TDD) approac Evetopic discussein theook  illdth codexa, a ch chapter is accompanib
+It presents anf techniinirra red thchoa  k imite common mistby followin thTesiven Development (TDD) approac Evetopic discussein theook  illdth codexa, a ch chapter is accompanib
 
 
 
