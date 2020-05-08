@@ -3,7 +3,7 @@ http://practicalunittesting.com/
 
 
 
-Practical Unit Testing with JUnit and Mockito
+Practical Unit Testing with JUnit and Mock
 
 
 
