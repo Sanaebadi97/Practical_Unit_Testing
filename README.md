@@ -1,7 +1,7 @@
 
 http://practicalunittesting.com
 Practical Unit Testing with JUnit an
-Nowadays developers are ectetounit tests. le in theorn practice writing high-quality unit tests can turn out to be a real chall
+Nowadays developers are ectetout tests. le in theorn practice writing high-quality unit tests can turn out to be a real chall
 This book explains in detail  tt testveopular osou Java tnologies: JU 5, TestNG, Mockito and A
 
 
