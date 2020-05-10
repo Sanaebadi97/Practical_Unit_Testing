@@ -17,6 +17,7 @@ By reading this book you will:
 
 Grasp the role and purpose of unit tests
 Write high-quality, readable and maintainable unit tests
+
 Learn how to use JUnit 5, Mockito, AssertJ, ...
 Avoid common pitfalls
 Recognize bad unit tests, and fix them in no time
