@@ -13,7 +13,7 @@ Mindset
 The book stresses the importance of writing readable and maintainable unit tests, and puts a lot of stress on code quality. It shows how to achieve testable code and to eliminate common mistakes by following the Test Driven Development (TDD) approach. Every topic discussed in the book is illustrated with code examples, and each chapter is accompanied by some exercises.
 
 
-By reading this book you will:
+## By reading this book you will:
 
 Grasp the role and purpose of unit tests
 Write high-quality, readable and maintainable unit tests
