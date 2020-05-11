@@ -32,9 +32,5 @@ class FootballTeamTest {
 
     }
 
-    @Test
-    fun shouldBePossibleToCompareTeams() {
-        val team = FootballTeam(ANY_NUMBER)
-      //  Assertions.assertTrue(team is Comparable<*>, "FootballTeam should implement comparable ")
-    }
+
 }
