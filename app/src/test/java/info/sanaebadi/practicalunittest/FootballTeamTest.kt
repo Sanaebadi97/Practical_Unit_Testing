@@ -6,13 +6,17 @@ import kotlin.test.assertEquals
 
 class FootballTeamTest {
 
+    companion object {
+        const val THERE_GAMES_WON = 3
+    }
+
     @Test
     fun constructorShouldSetGamesWon() {
-        val team = FootballTeam(0)
+        val team = FootballTeam(THERE_GAMES_WON)
         assertEquals(
-            3,
+            THERE_GAMES_WON,
             team.gamesWon,
-            "3 games passed to contractor , but ${team.gamesWon} , were returend , 3, ${team.gamesWon}"
+            "3 games passed to contractor , but ${team.gamesWon} , were returned $THERE_GAMES_WON , ${team.gamesWon}"
         )
 
 
