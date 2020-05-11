@@ -73,6 +73,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/ch4/FootballTeam.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/practicalunittest/Address.kt">
           <value>
             <set />
@@ -109,6 +114,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/practicalunittest/ClirntTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/practicalunittest/FootbalTeamTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/practicalunittest/FootballTeamTest.kt">
           <value>
             <set />
           </value>
