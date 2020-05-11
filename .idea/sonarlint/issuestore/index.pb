@@ -72,3 +72,7 @@ l
 <app/src/main/java/info/sanaebadi/practicalunittest/Client.kt,5/4/541866d92800d84d8d638f10640bff09c98a54c2
 p
 @app/src/test/java/info/sanaebadi/practicalunittest/ClientTest.kt,5/e/5e61de3fa9d2f3a2eec824d7ca142a3370821fd0
+d
+4app/src/main/java/info/sanaebadi/ch4/FootballTeam.kt,2/a/2a683ef7f9f31f064ad369f2019be9643c595ae6
+v
+Fapp/src/test/java/info/sanaebadi/practicalunittest/FootballTeamTest.kt,2/0/209e546e6b052f5b52bf426f2e9f450d4accb02b
