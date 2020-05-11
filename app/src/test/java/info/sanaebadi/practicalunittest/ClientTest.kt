@@ -2,9 +2,11 @@ package info.sanaebadi.practicalunittest
 
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
+import kotlin.test.Ignore
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
+@Ignore
 class ClientTest {
     val addressA = Address("StreetA")
     val addressB = Address("StreetB")

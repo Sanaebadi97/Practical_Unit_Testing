@@ -5,8 +5,10 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.runners.Parameterized
 import java.lang.Exception
+import kotlin.test.Ignore
 import kotlin.test.expect
 
+@Ignore
 internal class MoneyParameterizedTest {
 
     lateinit var money: Money
@@ -41,7 +43,7 @@ internal class MoneyParameterizedTest {
 
     //@Test(expect(Exception::class))
     fun shouldThrowExceptions() {
-       //some implimention here which is expected
+        //some implimention here which is expected
         // to throw an expected of Expetion class
     }
 }
