@@ -1,15 +1,17 @@
 package info.sanaebadi.practicalunittest
 
 import info.sanaebadi.ch4.FootballTeam
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.params.ParameterizedTest
-import org.junit.jupiter.params.provider.MethodSource
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class FootballTeamTest {
 
     companion object {
         const val THERE_GAMES_WON = 3
+        const val ANY_NUMBER = 123
 
 
 //        fun nbOfGamesWon(): Array<Int> {
@@ -19,16 +21,20 @@ class FootballTeamTest {
 
 
     @Test
-    @ParameterizedTest
-    @MethodSource("nbOfGamesWon")
     fun constructorShouldSetGamesWon() {
         val team = FootballTeam(THERE_GAMES_WON)
         assertEquals(
-           THERE_GAMES_WON,
+            THERE_GAMES_WON,
             team.gamesWon,
             "3 games passed to contractor , but ${team.gamesWon} , were returned $THERE_GAMES_WON , ${team.gamesWon}"
         )
 
 
+    }
+
+    @Test
+    fun shouldBePossibleToCompareTeams() {
+        val team = FootballTeam(ANY_NUMBER)
+      //  Assertions.assertTrue(team is Comparable<*>, "FootballTeam should implement comparable ")
     }
 }
