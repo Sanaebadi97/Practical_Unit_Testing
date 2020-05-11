@@ -10,6 +10,10 @@ class FootballTeamTest {
         const val THERE_GAMES_WON = 3
     }
 
+    fun nbOfGamesWon(): Array<Any> {
+        return `$`(0, 1, 2)
+    }
+
     @Test
     fun constructorShouldSetGamesWon() {
         val team = FootballTeam(THERE_GAMES_WON)
