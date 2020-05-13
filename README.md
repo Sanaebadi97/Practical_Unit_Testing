@@ -5,7 +5,7 @@ Nowadays developers are expected to write unit tests. While simple in theory, in
 ## Tools
 This book explains in detail how to implement unit tests using very popular open source Java technologies: JUnit 5, TestNG, Mockito and AssertJ.
 
-Techniques
+## Techniques
 It presents a range of techniques necessary to write high quality unit tests – e.g. mocks, parametrized tests and matchers. It also discusses trade-offs related to the choices we have to make when dealing with some real-life code issues.
 
 
