@@ -30,6 +30,6 @@ Customize test reports so that they show you what you really need to know
 Master tools and techniques your team members have never even heard of (priceless!) :)
 
 
-(RESOURCE)(http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
+[RESOURCE](http://kaczanowscy.pl/books/practical_unit_testing_junit_testng_mockito.html)
 
 
